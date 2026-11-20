@@ -1,0 +1,11 @@
+{
+  "index": {
+    "fields": [
+      "docType",
+      "batteryId"
+    ]
+  },
+  "ddoc": "indexDocTypeBatteryId",
+  "name": "indexDocTypeBatteryId",
+  "type": "json"
+}

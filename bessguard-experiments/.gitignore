@@ -1,0 +1,6 @@
+# Generated credentials, request fixtures and raw experimental runs must be reviewed before publishing.
+results/*
+!results/.gitkeep
+__pycache__/
+*.py[cod]
+*.log
