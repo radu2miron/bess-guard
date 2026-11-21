@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.mockito.Mockito.*;
 
+/**
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
+ */
 class DispatchMessageListenerTest {
 
     @Test

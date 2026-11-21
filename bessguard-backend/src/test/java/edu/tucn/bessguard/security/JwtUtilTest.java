@@ -6,6 +6,9 @@ import java.util.Base64;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
+ */
 class JwtUtilTest {
 
     @Test

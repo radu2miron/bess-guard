@@ -8,12 +8,16 @@ import edu.tucn.bessguard.queue.DispatchMessagePublisher;
 import edu.tucn.bessguard.security.RoleAuthorizationService;
 import org.junit.jupiter.api.Test;
 import org.mockito.InOrder;
-import org.mockito.ArgumentCaptor;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.*;
 
+/**
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
+ */
 class EnergyManagementServiceTest {
 
     @Test

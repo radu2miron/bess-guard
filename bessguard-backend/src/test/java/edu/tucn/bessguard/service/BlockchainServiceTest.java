@@ -7,10 +7,14 @@ import edu.tucn.bessguard.model.TxType;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
+/**
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
+ */
 class BlockchainServiceTest {
 
     @Test

@@ -6,8 +6,12 @@ import edu.tucn.bessguard.model.DispatchStatus;
 import edu.tucn.bessguard.model.OperatingCertificate;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
+ */
 class BessGuardPayloadsTest {
 
     @Test
