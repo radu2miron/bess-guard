@@ -95,7 +95,7 @@ bash -n run-e1.sh run-e2.sh
 
 The offline check does not contact the live system and **is not an experimental result**. It only verifies file structure, JMX settings, fixtures and Python syntax.
 
-## How to use these results in the six-page IFAC paper
+## Results
 
 A compact table may be sufficient:
 
@@ -103,8 +103,6 @@ A compact table may be sufficient:
 |---|---:|---|---|
 | Concurrent 8/6-kW reservations, 10-kW limit (E1) | 20 pairs | Exactly one committed reservation per pair; no conflicting commitments | 20/20 passed; exactly one reservation committed per pair; 0 conflicting commitments. |
 | Recertification 10 -> 6 kW with old v1 command (E2) | 10 runs | v1 cancelled/rejected, unchanged simulated energy, new v2 command staged | 10/10 passed; all v1 commands cancelled/rejected; 10/10 late RabbitMQ messages ignored; energy unchanged (15 kWh); all v2 commands admitted and staged. |
-
-Describe E2 as **late RabbitMQ delivery** only if the `E2_LATE_RABBIT=1` path is completed successfully. Report the observed JMeter success latency with context, if space permits, but **do not** claim blockchain scalability, performance superiority, hardware safety, real battery response, or statistically representative throughput from these small functional experiments.
 
 ### Implementation/measurement constraints
 
