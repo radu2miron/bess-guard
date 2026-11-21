@@ -8,7 +8,7 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 /**
  * A utility class for serializing and deserializing asset objects to/from JSON.
- *
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class JsonMapper {
     private static final ObjectMapper objectMapper = new ObjectMapper();

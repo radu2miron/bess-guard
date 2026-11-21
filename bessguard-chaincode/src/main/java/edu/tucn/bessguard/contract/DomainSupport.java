@@ -14,6 +14,7 @@ import javax.naming.ldap.Rdn;
 
 /**
  * Shared deterministic validation and world-state helpers (not Fabric entry points).
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 final class DomainSupport {
     private DomainSupport() {

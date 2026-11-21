@@ -6,6 +6,7 @@ import org.hyperledger.fabric.contract.Context;
 
 /**
  * Certificate issuance and recertification; history remains immutable.
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class CertificateService extends AbstractLedgerService<OperatingCertificate> {
     public CertificateService() {

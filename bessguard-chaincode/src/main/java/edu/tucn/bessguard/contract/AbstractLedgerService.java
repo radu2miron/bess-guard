@@ -15,6 +15,7 @@ import java.util.function.Function;
  * This is a preliminary persistence layer, not lifecycle invariant validation.
  *
  * @param <T> the stored domain type
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 abstract class AbstractLedgerService<T> {
     private final Class<T> entityClass;

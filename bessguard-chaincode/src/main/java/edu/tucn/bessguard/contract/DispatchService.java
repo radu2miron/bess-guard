@@ -11,6 +11,7 @@ import java.util.TreeSet;
 
 /**
  * Atomic, version-aware dispatch reservation logic.
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class DispatchService extends AbstractLedgerService<DispatchCommand> {
     public DispatchService() {

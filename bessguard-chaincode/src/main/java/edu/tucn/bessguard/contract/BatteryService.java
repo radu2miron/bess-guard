@@ -6,6 +6,7 @@ import org.hyperledger.fabric.contract.Context;
 
 /**
  * Manages battery identities and their per-battery coordination guard record.
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class BatteryService extends AbstractLedgerService<BatteryUnit> {
     public BatteryService() {

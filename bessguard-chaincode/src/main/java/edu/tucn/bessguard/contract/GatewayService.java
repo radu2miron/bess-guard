@@ -6,6 +6,7 @@ import org.hyperledger.fabric.contract.Context;
 
 /**
  * Ledger acknowledgments from the trusted dispatch gateway (local fencing is mandatory).
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class GatewayService {
     /**

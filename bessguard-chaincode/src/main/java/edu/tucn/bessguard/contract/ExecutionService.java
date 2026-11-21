@@ -8,6 +8,7 @@ import java.time.Instant;
 
 /**
  * Gateway-side authorization ledger and execution evidence. Not a physical controller.
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class ExecutionService extends AbstractLedgerService<ExecutionAttempt> {
     public ExecutionService() {

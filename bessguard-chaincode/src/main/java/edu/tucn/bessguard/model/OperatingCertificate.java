@@ -4,6 +4,7 @@ import lombok.Data;
 
 /**
  * BESSGuard domain model.
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 @Data
 public class OperatingCertificate {

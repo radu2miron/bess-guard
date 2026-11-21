@@ -10,6 +10,7 @@ import org.hyperledger.fabric.contract.annotation.Transaction;
 /**
  * Fabric-facing facade ONLY. Domain, admission and recertification logic live in services,
  * following the DppProvVerContract structure supplied as the reference project.
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 @Contract(name = "BessGuardContract")
 @Default

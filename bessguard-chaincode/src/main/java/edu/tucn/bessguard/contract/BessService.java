@@ -7,6 +7,7 @@ import org.hyperledger.fabric.contract.Context;
 
 /**
  * Persistence and validation of aggregating second-life BESS resources.
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class BessService extends AbstractLedgerService<SecondLifeBESS> {
     public BessService() {
